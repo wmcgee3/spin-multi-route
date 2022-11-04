@@ -1,0 +1,22 @@
+spin_version = "1"
+authors = ["wmcgee3"]
+description = ""
+name = "spin-multi-route"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "root"
+source = "target/wasm32-wasi/release/root.wasm"
+[component.trigger]
+route = "/"
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
+
+[[component]]
+id = "stuff"
+source = "target/wasm32-wasi/release/stuff.wasm"
+[component.trigger]
+route = "/stuff"
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
