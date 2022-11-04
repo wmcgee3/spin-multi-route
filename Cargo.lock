@@ -111,6 +111,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "querystring"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9318ead08c799aad12a55a3e78b82e0b6167271ffd1f627b758891282f739187"
+
+[[package]]
 name = "quote"
 version = "1.0.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -222,6 +228,35 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
+]
+
+[[package]]
+name = "thing"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "http",
+ "querystring",
+ "serde",
+ "serde_json",
+ "spin-sdk",
+ "utils",
+ "wit-bindgen-rust",
+]
+
+[[package]]
+name = "things"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "http",
+ "serde",
+ "serde_json",
+ "spin-sdk",
+ "utils",
+ "wit-bindgen-rust",
 ]
 
 [[package]]

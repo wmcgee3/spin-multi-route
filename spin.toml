@@ -20,3 +20,19 @@ source = "target/wasm32-wasi/release/stuff.wasm"
 route = "/stuff"
 [component.build]
 command = "cargo build --target wasm32-wasi --release"
+
+[[component]]
+id = "thing"
+source = "target/wasm32-wasi/release/thing.wasm"
+[component.trigger]
+route = "/things/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
+
+[[component]]
+id = "things"
+source = "target/wasm32-wasi/release/things.wasm"
+[component.trigger]
+route = "/things"
+[component.build]
+command = "cargo build --target wasm32-wasi --release"

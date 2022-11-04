@@ -1,2 +1,2 @@
 [workspace]
-members = ["root", "stuff", "utils"]
+members = ["root", "stuff", "thing", "things", "utils"]
