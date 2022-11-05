@@ -56,6 +56,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "hello"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "http",
+ "serde",
+ "serde_json",
+ "spin-sdk",
+ "utils",
+ "wit-bindgen-rust",
+]
+
+[[package]]
 name = "http"
 version = "0.2.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -202,20 +216,6 @@ dependencies = [
  "form_urlencoded",
  "http",
  "spin-macro",
- "wit-bindgen-rust",
-]
-
-[[package]]
-name = "stuff"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "bytes",
- "http",
- "serde",
- "serde_json",
- "spin-sdk",
- "utils",
  "wit-bindgen-rust",
 ]
 
