@@ -266,7 +266,6 @@ dependencies = [
  "serde",
  "serde_json",
  "spin-sdk",
- "utils",
  "wit-bindgen-rust",
 ]
 
