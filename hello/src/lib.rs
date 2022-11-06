@@ -4,7 +4,7 @@ use spin_sdk::{
     http_component,
 };
 
-use response::HelloResponse;
+use responses::HelloResponse;
 
 #[http_component]
 fn get_hello(_: Request) -> Result<Response> {

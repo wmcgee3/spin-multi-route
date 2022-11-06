@@ -4,7 +4,7 @@ use spin_sdk::{
     http_component,
 };
 
-use response::ThingsResponse;
+use responses::ThingsResponse;
 
 #[http_component]
 fn get_things(_: Request) -> Result<Response> {

@@ -62,7 +62,7 @@ dependencies = [
  "anyhow",
  "bytes",
  "http",
- "response",
+ "responses",
  "serde",
  "serde_json",
  "spin-sdk",
@@ -140,7 +140,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "response"
+name = "responses"
 version = "0.1.0"
 dependencies = [
  "serde",
@@ -155,7 +155,7 @@ dependencies = [
  "anyhow",
  "bytes",
  "http",
- "response",
+ "responses",
  "serde",
  "serde_json",
  "spin-sdk",
@@ -247,7 +247,7 @@ dependencies = [
  "bytes",
  "http",
  "querystring",
- "response",
+ "responses",
  "serde",
  "serde_json",
  "spin-sdk",
@@ -262,7 +262,7 @@ dependencies = [
  "anyhow",
  "bytes",
  "http",
- "response",
+ "responses",
  "serde",
  "serde_json",
  "spin-sdk",

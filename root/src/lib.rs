@@ -4,7 +4,7 @@ use spin_sdk::{
     http_component,
 };
 
-use response::RootResponse;
+use responses::RootResponse;
 
 #[http_component]
 fn get_root(_: Request) -> Result<Response> {
